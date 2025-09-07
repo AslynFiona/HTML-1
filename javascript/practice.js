@@ -7,4 +7,6 @@ var obj = {
 
 };
 delete obj.things["tab"];
-console.log(obj);
+console.log(typeof(obj));
+var age=19;
+console.log("Hi", age);

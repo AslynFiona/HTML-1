@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+/* nav starting */
+.navbar-brand {
+    font-style: italic;
+    color: red;
+    font-family: 'Story Script', cursive;
+    font-size:50px;
+    font-weight:500;
+}
+.navbar-brand:hover {
+    color:black;
+    
+}
+
+.form-control.me-2{
+    border: 2px solid red;
+    border-radius: 20px;
+    padding:5px 10px;
+}
+.btn.btn-outline-success {
+    background-color: red;
+    border-radius:10px; 
+    color: white;
+    border-color: azure;
+}
+/* nav ending */
+
+/* main starting */
+.mainpg {
+    height:600px;
+    background-image: url("https://ik.imagekit.io/Aslyn23/Pictures/Organic%20food%20web/main.jpg?updatedAt=1757085726662");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nature {
+    font-family:cursive;
+    color:aliceblue;
+    font-size: 65px;
+    font-weight: 400;
+    font-style: oblique;
+    text-align:center;
+    
+}
+.nature:hover {
+    color:paleturquoise;
+}
+.btn_main {
+    border: 1px solid bisque;
+    border-radius: 10px;
+    padding: 5px 25px;
+    background-color: red;  
+    cursor:grab;
+    font-size: 22px;
+    color:azure;
+    
+}
+.btn_main:hover {
+    background-color: aliceblue;
+    color:red;
+    border:2px solid pink;
+    
+}
+/* main ending */
+/* logo start */
+.logo {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top: 20px;
+    gap: 50px;
+    
+}
+
+.logo img {
+  transition: all 0.4s ease-in-out;
+}
+
+.logo img:hover {
+  box-shadow: 0 0 20px 5px limegreen; 
+  border-radius: 100px;
+}
+
+/* logo :end */
+/* trend :start */
+.container {
+    max-width:max-content; 
+    padding:30px;
+    background-color: rgba(250, 238, 221, 0.76);
+    
+}
+.trendh1 {
+    font-style: oblique;
+    color:rgb(226, 19, 19);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+}
+.trendh2 {
+    font-style: italic;
+    color:orangered;
+    text-align:center;
+    padding-bottom: 40px;
+}
+.card {
+    transition:all 0.2s ease-in-out;
+}
+.card:hover {
+    box-shadow: 0  0 15px 5px rgb(223, 82, 110);
+    border-radius: 12px;
+    
+}
+.cardcontainer {
+    max-width: fit-content;
+    max-width: fit-content;
+}
+.card-title {
+    font-family:cursive;
+    font-style: oblique;
+    color:crimson;
+}
+.card-text {
+    font-weight:500;
+    font-style: italic;
+}
+/* trend end */
+
+/* explore */
+.container2 {
+    width:100%;
+    padding: 30px;
+    background-color: cornsilk;
+}
+.container2 .card {
+    transition: all 0.2s ease-out;
+    
+}
+.container2 .card img {
+    width:193px;
+    height:150px;
+}
+.container2 .card:hover {
+    box-shadow: 0  0 15px 5px rgb(231, 164, 170);
+    border-radius: 20px;
+    cursor:grab;
+}
+.explore1 {
+    font-family: cursive;
+    font-style: normal;
+    color:rgb(236, 63, 41);
+}
+.explore2 {
+    font-family: cursive;
+    font-style: oblique;
+    color:black;
+}
+.exph1 {
+    font-family: cursive;
+    color:rgb(212, 0, 255);
+    font-style: oblique;
+    text-align: center;
+}
+.exph2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+    font-style: italic;
+    text-align: center;
+}
+.ctn form {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 300px;
+}
+.ctn form input,
+.ctn form button {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.btnmsg {
+    background-color: crimson;
+}
+.container3 {
+    padding:30px;
+}
+.ctn form label {
+    font-size:x-large;
+    color:chocolate;
+}
+.cts {
+    font-family: cursive;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(255, 60, 0);
+}
+
+/* explore */
